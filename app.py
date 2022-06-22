@@ -2,6 +2,7 @@ emp1 = ["Tester", "Joe Doe" "age", 8200]
 emp2 = ["Front-end", "Smith Jeffery" "age", 8200]
 
 
+# class
 class Employee:
 
     def __init__(self, name, email, age, payment, jobTitle):
