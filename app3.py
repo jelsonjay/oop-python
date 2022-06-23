@@ -1,5 +1,5 @@
 
-# inheritance child class baseClass
+# inheritance: childClass baseClass
 # inherits, extend & override
 # super().__init__()
 class Employee:
