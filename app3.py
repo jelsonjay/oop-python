@@ -1,4 +1,7 @@
+
+# inheritance child class baseClass
 # inherits, extend & override
+# super().__init__()
 class Employee:
     def __init__(self, name, email, salary):
         self.name = name
@@ -39,3 +42,7 @@ print(job.tester, job.designer, job.backend, job.frontend)
 print("From developer class...")
 print(developer.name, developer.email, developer.salary)
 developer.work()
+
+
+# polymorphism
+#employeesList = []
