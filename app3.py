@@ -1,4 +1,4 @@
-# inherits & extend, override
+# inherits, extend & override
 class Employee:
     def __init__(self, name, email, salary):
         self.name = name
@@ -6,7 +6,7 @@ class Employee:
         self.salary = salary
 
     def work(self):
-        print(f"{self.name} is a hard worker, derserve a promotion!")
+        print(f"{self.name} is a hard worker, deserve a promotion!")
 
 # extends the function employee
 
@@ -18,6 +18,9 @@ class JobType(Employee):
         self.designer = designer
         self.backend = backend
         self.frontend = frontend
+
+    def work(self):
+        print(f"{self.name} is a good and hard worker!")
 
 
 class Developer(Employee):
