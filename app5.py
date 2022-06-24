@@ -36,7 +36,23 @@
 # for j in range(5, 10):
 #     print(j)
 
+# days = ["Monday", "Tuesday", "Wednesday",
+#         "Thursday", "Friday", "Saturday", "Sunday"]
+# for day in days:
+#     print(day)
+
+# days = ["Monday", "Tuesday", "Wednesday",
+#         "Thursday", "Friday", "Saturday", "Sunday"]
+# for day in days:
+#     if (day == "Friday"):
+#         break
+#     print(day)
+
+
 days = ["Monday", "Tuesday", "Wednesday",
         "Thursday", "Friday", "Saturday", "Sunday"]
 for day in days:
+    if (day == "Friday"):
+        continue
+
     print(day)
