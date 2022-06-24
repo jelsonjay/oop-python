@@ -16,10 +16,27 @@
 #     print(club)
 # clubeName()
 
-def clubName(name):
-    print(name)
-    print(name)
-    print(name)
+# def clubName(name):
+#     print(name)
+#     print(name)
+#     print(name)
+
+# clubName("Barcelona")
+
+# while loop
+
+# j = 0
+# while(j < 9):
+#     print(j)
+#     j = j+1
+
+# for loop
 
 
-clubName("Barcelona")
+# for j in range(5, 10):
+#     print(j)
+
+days = ["Monday", "Tuesday", "Wednesday",
+        "Thursday", "Friday", "Saturday", "Sunday"]
+for day in days:
+    print(day)
