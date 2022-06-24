@@ -1,7 +1,5 @@
 # emcap
 
-from typing_extensions import Self
-
 
 class Employee:
 
@@ -11,10 +9,13 @@ class Employee:
         self._password = None
         self._secret_number = 0
 
-    def get_password():
+   # getter function
+    def get_password(self):
         return self._password
 
+  # setter function
     def set_password(self, value):
+        # check value
         self._password = value
 
 
@@ -23,4 +24,4 @@ emp = Employee("Ney", "ney25@example.com")
 print(emp.name, emp.email, emp._password)
 
 emp.set_password(125896)
-emp.get_password()
+print(emp.get_password())
