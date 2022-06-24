@@ -23,5 +23,5 @@ emp = Employee("Ney", "ney25@example.com")
 
 print(emp.name, emp.email, emp._password)
 
-emp.set_password(125896)
+emp.set_password(12589643)
 print(emp.get_password())
